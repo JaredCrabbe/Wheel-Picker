@@ -8,5 +8,6 @@ allows you to add your own segments and picks one out at random
 
 just type in the name of your segment and press enter and it will automatically be added
 
+## Preview 👓
 
-<img src="https://github.com/JaredCrabbe/Wheel-Picker/blob/main/giphy.gif" width="256"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWdzcjVwZzBzY3lpZ29xYzR0MTFvZmNsdHQ2a3A4OTNrYzg0dXVoOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DQxKxsRZDbIQhl8tdM/giphy.gif">
