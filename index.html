@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wheel picker</title>
+</head>
+<body>
+    <div class="container-wheel">
+        <div class="wrapper">
+            <div class="search-box">
+                <input type="text" id="search-bar" placeholder="Enter your item" class="search-inp" onkeydown="if (event.keyCode == 13)
+                    addLabel(searchBar.value), clr()">
+                    <button id="reset-btn" onclick="reset()">reset!</button>
+             </div>
+            <canvas id="wheel"></canvas>
+            <button id="spin-btn">Spin me</button>
+            <div id="final-value">
+                <p>click the button to spin</p>
+            </div>
+        </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0-rc.1/chartjs-plugin-datalabels.min.js" integrity="sha512-+UYTD5L/bU1sgAfWA0ELK5RlQ811q8wZIocqI7+K0Lhh8yVdIoAMEs96wJAIbgFvzynPm36ZCXtkydxu1cs27w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js" defer="true"></script>
+    
+    
+</body>
+
+</html>
